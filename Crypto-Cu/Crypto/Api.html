@@ -1,0 +1,115 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+
+    
+
+
+    <title>Converter</title>
+</head>
+<body style="background-image: url('./res/bg1.jpg');  
+
+  " >
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Currency</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Logout</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+  <div class="container">
+  <br><br>
+  <div class="col-1"></div>
+  <div class="col-10">
+      <select id="S1" class="browser-default custom-select">
+          <option selected>Select From Currency</option>
+          <option value="EUR">Euro</option>
+          <option value="USD">Us Dollar</option>
+          <option value="TND">Tunisian Dinar</option>
+          <option value="EGP">Egyptian Pound</option>
+          <option value="AED">United Arab Emirates Dirham</option>
+          <option value="INR">Indian Rupee</option>
+          <option value="HKD">Hong Kong Dollar</option>
+          <option value="CAD">Canadian Dollar</option>
+          <option value="AUD">Australian Dollar</option>
+          <option value="JPY">Japanese Yen</option>
+          <option value="LYD">Libyan Dinar</option>
+          <option value="PHP">Philippine Peso</option>
+          <option value="TRY">Turkish Lira</option>
+
+        </select>
+        <br><br>
+        <select id="S2" class="browser-default custom-select">
+            <option selected>To: </option>
+            <option value="EUR">Euro</option>
+            <option value="USD">Us Dollar</option>
+            <option value="TND">Tunisian Dinar</option>
+            <option value="EGP">Egyptian Pound</option>
+            <option value="AED">United Arab Emirates Dirham</option>
+            <option value="INR">Indian Rupee</option>
+            <option value="HKD">Hong Kong Dollar</option>
+            <option value="CAD">Canadian Dollar</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="JPY">Japanese Yen</option>
+            <option value="LYD">Libyan Dinar</option>
+            <option value="PHP">Philippine Peso</option>
+            <option value="TRY">Turkish Lira</option>
+  
+          </select>
+          <br><br>
+          <input type="number" class="form-control" id="Am" placeholder="Amount">
+ <br><br>
+          <button class="btn btn-secondary" id="b1" type="submit">Convert</button>
+ 
+ <table id="tb" style="background-color: aliceblue;" class="table table-striped">
+    
+  <th></th>
+  <th>Data</th>
+</table>
+</div>
+
+
+  
+  
+
+
+
+  </div>
+  
+
+
+    
+   
+    
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+    
+    <script src="./js/api.js"></script>
+</body>
+
+</html>

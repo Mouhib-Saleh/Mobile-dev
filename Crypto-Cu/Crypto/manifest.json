@@ -1,0 +1,20 @@
+{
+    "short_name": "Crypto",
+    "name": "Crypto Currency",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "display": "fullscreen",
+    "Scope": "/",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src" : "res/Crypto.jpg",
+        "type": "image/jpg",
+        "sizes": "512x512"
+      }
+     
+    ],
+    "start_url": "index.html"
+  }
+
+
